@@ -373,7 +373,7 @@ panorama26.link( panorama27, new THREE.Vector3( -4815.14, 313.79, -1274.14 ) );
 panorama26.link( panorama31, new THREE.Vector3( 4969.57, 143.39, 473.04 ) );
 
 panorama26.addEventListener( 'enter-fade-start', function(){
-  viewer.tweenControlCenter( new THREE.Vector3(4987.43, 245.37, 55.90), 0 );
+  viewer.tweenControlCenter( new THREE.Vector3(4995.91, 76.65, 20.48), 0 );
 } );
 
 panorama28.link( panorama17, new THREE.Vector3( -368.76, -456.77, 4957.63 ) );
@@ -388,6 +388,97 @@ panorama29.link( panorama20, new THREE.Vector3( -4984.76, 317.72, 52.55 ) );
 
 panorama29.addEventListener( 'enter-fade-start', function(){
   viewer.tweenControlCenter( new THREE.Vector3(-4961.77, 347.75, 468.83), 0 );
+} );
+
+panorama27.link( panorama25, new THREE.Vector3( -1767.63, 180.13, 4662.29 ) );
+panorama27.link( panorama26, new THREE.Vector3( 966.38, 102.06, 4898.27 ) );
+panorama27.link( panorama28, new THREE.Vector3( -1856.67, 96.82, -4631.61 ) );
+
+panorama27.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-4993.01, -71.64, -79.62), 0 );
+} );
+
+panorama31.link( panorama26, new THREE.Vector3( 4714.51, 302.03, 1618.23 ) );
+panorama31.link( panorama32, new THREE.Vector3( -4981.19, -157.59, 240.69 ) );
+panorama31.link( panorama33, new THREE.Vector3( -2665.32, 404.82, 4202.65 ) );
+panorama31.link( panorama34, new THREE.Vector3( -4985.43, 309.62, -45.82 ) );
+
+panorama31.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-4985.77, 310.18, 38.90), 0 );
+} );
+
+panorama32.link( panorama26, new THREE.Vector3( 4926.37, 440.35, 679.92 ) );
+panorama32.link( panorama31, new THREE.Vector3( 4974.06, -255.17, -303.68 ) );
+panorama32.link( panorama33, new THREE.Vector3( 1895.73, 502.35, 4590.26 ) );
+panorama32.link( panorama34, new THREE.Vector3( -4897.88, 323.01, 913.47 ) );
+
+panorama32.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-4884.16, 486.14, 911.78), 0 );
+} );
+
+panorama33.link( panorama31, new THREE.Vector3( -4219.60, -641.30, 2587.90 ) );
+panorama33.link( panorama32, new THREE.Vector3( 820.79, -1136.92, 4791.80 ) );
+panorama33.link( panorama34, new THREE.Vector3( 4402.05, -299.51, 2332.96 ) );
+
+panorama33.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-3108.42, -480.15, -3874.66), 0 );
+} );
+
+panorama34.link( panorama31, new THREE.Vector3( 4863.93, -218.68, 1106.44 ) );
+panorama34.link( panorama32, new THREE.Vector3( 4790.30, -513.30, 1299.66 ) );
+panorama34.link( panorama33, new THREE.Vector3( 4001.74, 189.85, 2980.62 ) );
+panorama34.link( panorama35, new THREE.Vector3( -4878.16, 218.86, -1053.31 ) );
+
+panorama34.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-4329.98, -10.80, 2499.36), 0 );
+} );
+
+panorama35.link( panorama34, new THREE.Vector3( 4871.55, 594.37, -909.62 ) );
+panorama35.link( panorama36, new THREE.Vector3( -4801.59, 330.30, 1322.17 ) );
+
+panorama35.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-4885.99, 587.45, 823.69), 0 );
+} );
+
+panorama36.link( panorama35, new THREE.Vector3( -4012.03, 98.95, -2973.58 ) );
+panorama36.link( panorama37, new THREE.Vector3( 4087.96, -13.05, 2871.97 ) );
+
+panorama36.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(4151.00, -20.51, 2774.36), 0 );
+} );
+
+panorama37.link( panorama36, new THREE.Vector3( 4988.15, 134.29, -125.37 ) );
+panorama37.link( panorama39, new THREE.Vector3( -4957.69, 547.50, -162.62 ) );
+
+panorama37.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-3985.24, 404.09, -2986.15), 0 );
+} );
+
+panorama39.link( panorama37, new THREE.Vector3( -3951.20, 385.66, 3030.82 ) );
+panorama39.link( panorama38, new THREE.Vector3( 731.04, -569.92, -4902.76 ) );
+panorama39.link( panorama5f, new THREE.Vector3( -2434.74, 3877.58, 1994.12 ) );
+
+panorama39.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-3147.04, 557.93, -3831.56), 0 );
+} );
+
+panorama5f.link( panorama39, new THREE.Vector3( -2729.26, -3983.44, 1280.20 ) );
+
+panorama5f.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-2609.39, 309.21, 4244.62), 0 );
+} );
+
+panorama38.link( panorama39, new THREE.Vector3( -85.31, 333.25, -4982.44 ) );
+panorama38.link( panorama4f, new THREE.Vector3( 2549.92, 1678.97, -3947.50 ) );
+
+panorama38.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-3475.10, 3580.16, 232.00), 0 );
+} );
+
+panorama4f.link( panorama38, new THREE.Vector3( 1327.48, -3550.79, -3254.66 ) );
+
+panorama4f.addEventListener( 'enter-fade-start', function(){
+  viewer.tweenControlCenter( new THREE.Vector3(-2302.10, 688.25, 4374.43), 0 );
 } );
 
 radius = 1500;
